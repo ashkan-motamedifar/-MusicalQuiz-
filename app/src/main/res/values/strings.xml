@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Musical Quiz</string>
+    <string name="playlist_name">Playlist Name</string>
+    <string name="open">Open</string>
+    <string name="delete">Delete</string>
+    <string name="track_count_placeholder">Tracks: %1$d</string>
+</resources>

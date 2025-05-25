@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Create Playlist Button -->
+    <Button
+        android:id="@+id/btnCreatePlaylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create New Playlist"
+        android:layout_marginBottom="8dp"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Create a new playlist" />
+
+    <!-- RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvPlaylists"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingBottom="64dp"
+        android:contentDescription="List of playlists" />
+
+    <!-- Floating Action Button -->
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/fabCreatePlaylist"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="end"
+        android:layout_margin="16dp"
+        android:src="@android:drawable/ic_input_add"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:background="@android:color/holo_blue_light"
+        android:contentDescription="Add Playlist" />
+</LinearLayout>
